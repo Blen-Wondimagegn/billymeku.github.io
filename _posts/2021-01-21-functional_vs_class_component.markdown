@@ -1,11 +1,9 @@
 ---
 layout: post
 title:      "Functional VS Class Component"
-date:       2021-01-21 06:48:13 +0000
+date:       2021-01-21 01:48:14 -0500
 permalink:  functional_vs_class_component
 ---
-
-Functional vs Class Components 
 
 Separating concerns is crucial part of having organized code. React fits right into that as it helps us to divide up our app into multiple components, which can be either Functional(stateless)  or Class component(satefull). In my React Redux app I used Functional components for when I don’t have to keep track of state, although technically we can do that using hooks, or when there is a need to only return JSX, simply used to present the data received through props. I have made separate directory for container components which are mostly class components so that it has full access to states and lifecycle methods. 
 ```
