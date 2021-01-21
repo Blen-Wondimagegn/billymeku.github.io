@@ -56,7 +56,7 @@ const DietItem =({diet}){
 
 ```
 
-  For this example it accepted and used props, and returned JSX.
+  This Functional component accepts and uses props, and  it is only returning JSX.
 
 
 In conclusion, using Functional components is the better way to keep your code clean and easy to read. But for the sake of separating your concern keep Container components as a Class component which is a Parent app that send data to other components. Where as Functional components can be the Child Components which receives data exclusively through prop.
